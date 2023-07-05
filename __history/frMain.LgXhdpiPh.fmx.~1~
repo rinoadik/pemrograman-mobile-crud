@@ -1,0 +1,51 @@
+inherited FMain_LgXhdpiPh: TFMain_LgXhdpiPh
+  ClientHeight = 694
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited loMain: TLayout
+    Size.Width = 450.000000000000000000
+    Size.Height = 694.000000000000000000
+    inherited tcMain: TTabControl
+      Size.Width = 450.000000000000000000
+      Size.Height = 694.000000000000000000
+      Sizes = (
+        450s
+        694s
+        450s
+        694s)
+      inherited tiData: TTabItem
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        inherited lbMain: TListBox
+          Size.Width = 450.000000000000000000
+          Size.Height = 694.000000000000000000
+          Viewport.Width = 356.000000000000000000
+          Viewport.Height = 571.000000000000000000
+          inherited SearchBox1: TSearchBox
+            Size.Width = 450.000000000000000000
+          end
+        end
+      end
+      inherited tiProsesData: TTabItem
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        inherited Label3: TLabel
+          Size.Width = 210.000000000000000000
+          Size.Height = 103.000000000000000000
+        end
+        inherited edNama: TEdit
+          Size.Width = 339.000000000000000000
+          Size.Height = 32.000000000000000000
+        end
+        inherited Label4: TLabel
+          Size.Width = 210.000000000000000000
+          Size.Height = 103.000000000000000000
+        end
+        inherited edAlamat: TEdit
+          Size.Width = 339.000000000000000000
+          Size.Height = 32.000000000000000000
+        end
+      end
+    end
+  end
+end
